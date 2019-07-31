@@ -8,7 +8,7 @@ Desenvolver uma aplicação HTML5 + CSS3 + JS
 - O link do repositório deverá ser enviado para o e-mail felipe.dasilva@grupoboticario.com.br com o título **Teste Front-End**
 
 ## Especificações técnicas
-- Utilizar HTML5, CSS3 e JS (Vanilla, jQuery, Vue ou React... Fica a seu critério)
+- Utilizar HTML5, CSS3 e JS (Vanilla, jQuery, Vue, React ou Angular... Fica a seu critério)
 - Mobile first e responsivo
 
 ## A missão
