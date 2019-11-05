@@ -10,6 +10,7 @@ Desenvolver uma aplicação HTML5 + CSS3 + JS
 ## Especificações técnicas
 - Utilizar HTML5, CSS3 e JS (Vanilla, jQuery, Vue, React ou Angular... Fica a seu critério)
 - Mobile first e responsivo
+- Que tal escrever alguns testes (Jest, Mocha...)? Será legal se você o fizer, não é obrigatório, mas considere um diferencial.
 
 ## A missão
 Desenvolver uma página, baseando-se no wireframe abaixo (PSD e PNG na pasta assets):
