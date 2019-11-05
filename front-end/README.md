@@ -19,7 +19,7 @@ Desenvolver uma página, baseando-se no wireframe abaixo (PSD e PNG na pasta ass
 Hover mini cart:
 ![boticario](assets/hover-eCommerce-PSD-Template.png)
 
-- Os produtos precisam ser consumidos de um .json (está na pasta assets) via ajax.
+- Os produtos precisam ser consumidos de um .json (está na pasta assets).
 - Ao clicar no produto, o mesmo deve ser adicionado ao carrinho.
 - Último e não menos importante, deixe sua imaginação fluir.
 
