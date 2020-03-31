@@ -1,6 +1,7 @@
-@import './normalize';
+@import "./normalize";
 
 body {
+	color: #444;
 	margin: 0px;
 	padding: 0px;
 }
@@ -8,7 +9,7 @@ body {
 body,
 input,
 button {
-	font-family: 'Roboto', sans-serif;
+	font-family: "Roboto", sans-serif;
 }
 
 * {
@@ -37,4 +38,28 @@ ul {
 	width: 100%;
 }
 
-@import './header';
+.main {
+	padding: 1rem;
+}
+
+.main-title {
+	align-items: center;
+	display: flex;
+	font-size: 1rem;
+	font-weight: normal;
+	justify-content: center;
+	margin: 0px;
+	text-transform: uppercase;
+
+	&::before,
+	&::after {
+		background-color: #ccc;
+		content: " ";
+		display: inline-block;
+		height: 1px;
+		margin: 0px 1rem;
+		width: 10rem;
+	}
+}
+
+@import "./header", "./product";

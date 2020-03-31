@@ -1,0 +1,31 @@
+#product-list {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 2rem 1rem;
+	margin-top: 2rem;
+}
+
+.product {
+	border: 2px solid #ccc;
+	cursor: pointer;
+	display: grid;
+	grid-gap: 1rem;
+	grid-template-rows: 1fr auto auto;
+	padding: 1.5rem;
+	text-align: center;
+	text-transform: uppercase;
+
+	.product__image {
+		display: block;
+		margin: auto;
+		max-width: 200px;
+		width: 100%;
+	}
+
+	.product__name,
+	.product__value {
+		font-size: 1rem;
+		font-weight: normal;
+		margin: 0px;
+	}
+}
