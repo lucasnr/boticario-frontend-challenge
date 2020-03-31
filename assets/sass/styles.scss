@@ -51,14 +51,16 @@ ul {
 	margin: 0px;
 	text-transform: uppercase;
 
-	&::before,
-	&::after {
-		background-color: #ccc;
-		content: " ";
-		display: inline-block;
-		height: 1px;
-		margin: 0px 1rem;
-		width: 10rem;
+	@media (min-width: 576px) {
+		&::before,
+		&::after {
+			background-color: #ccc;
+			content: " ";
+			display: inline-block;
+			height: 1px;
+			margin: 0px 1rem;
+			width: 8rem;
+		}
 	}
 }
 

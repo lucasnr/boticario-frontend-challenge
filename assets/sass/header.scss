@@ -16,6 +16,11 @@
 
 	.header__navbar {
 		margin-right: auto;
+		display: none;
+
+		@media (min-width: 768px) {
+			display: block;
+		}
 
 		.header__nav {
 			border-left: 2px solid #eee;
